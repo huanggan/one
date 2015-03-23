@@ -1,5 +1,5 @@
 {
-    "name": "hg/package1",
+    "name": "hg/package",
 
     "description": "only test",
     "keywords": ["test-cms"],
@@ -18,7 +18,7 @@
     ],
     "require": {
 
-        "hg/package2":"~1.0"
+        "hg/test":"~1.0"
         
     },
 	"autoload": {
