@@ -1,5 +1,5 @@
 {
-    "name": "hg/package1",
+    "name": "hg/package2",
     "description": "only test",
     "keywords": ["test-cms"],
     "license": "AGPL-3.0",
@@ -9,15 +9,9 @@
             "email": "466927746@qq.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/huanggan/one/mypackage2"
-        }
-    ],
     "require": {
         "php": ">=5.5.0",
-        "hg/package2":"dev-master"
+  
         
     },
 	    "autoload": {
