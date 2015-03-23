@@ -12,7 +12,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/huanggan/one/mypackage2"
+            "url": "https://github.com/huanggan/hg-test"
         }
     ],
     "require": {
