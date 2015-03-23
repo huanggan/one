@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "hg/package2":""
+        "hg/package2":"1.0.0"
         
     },
 	    "autoload": {
