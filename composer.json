@@ -1,6 +1,6 @@
 {
     "name": "hg/package1",
-	"version": "1.0.0",
+
     "description": "only test",
     "keywords": ["test-cms"],
     "license": "AGPL-2.0",
@@ -16,9 +16,9 @@
             "url": "https://github.com/huanggan/hg-test2"
         }
     ],
-    "require": {
+    "require-dev": {
         "php": ">=5.5.0",
-        "hg/package2":"1.0.0"
+        "hg/package2":"2.0"
         
     },
 	    "autoload": {
