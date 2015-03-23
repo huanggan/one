@@ -2,7 +2,7 @@
     "name": "hg/package1",
     "description": "only test",
     "keywords": ["test-cms"],
-    "license": "AGPL-3.0",
+    "license": "AGPL-2.0",
     "authors": [
         {
             "name": "huangggan",
