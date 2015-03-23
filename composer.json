@@ -18,7 +18,7 @@
     ],
     "require": {
 
-        "hg/test":"~1.0"
+        "hg/test":"dev-master"
         
     },
 	"autoload": {
