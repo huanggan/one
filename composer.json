@@ -1,5 +1,6 @@
 {
     "name": "hg/package1",
+	"version": "1.0.0",
     "description": "only test",
     "keywords": ["test-cms"],
     "license": "AGPL-2.0",
@@ -24,9 +25,6 @@
         "psr-4": {
             "Hg\\Test-cms\\": "src/"
         }
-    },
-	{
-	"version": "1.0.0"
-	}
+    }
 
 }
