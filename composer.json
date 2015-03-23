@@ -18,7 +18,7 @@
     ],
     "require": {
 
-        "hg/oo":"~1.0-dev"
+        "hg/oo":"1.0-dev"
         
     },
 	"autoload": {
