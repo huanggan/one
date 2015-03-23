@@ -3,7 +3,7 @@
 
     "description": "only test",
     "keywords": ["test-cms"],
-    "license": "AGPL-2.0",
+
     "authors": [
         {
             "name": "huangggan",
@@ -16,15 +16,21 @@
             "url": "https://github.com/huanggan/hg-test2"
         }
     ],
-    "require-dev": {
-        "php": ">=5.5.0",
-        "hg/package2":"dev-master"
+    "require": {
+
+        "hg/package2":"~1.0"
         
     },
-	    "autoload": {
+	"autoload": {
         "psr-4": {
             "Hg\\Test-cms\\": "src/"
         }
-    }
+    },"extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 
 }
