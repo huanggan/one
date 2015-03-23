@@ -18,7 +18,7 @@
     ],
     "require-dev": {
         "php": ">=5.5.0",
-        "hg/package2":"dev"
+        "hg/package2":"dev-master"
         
     },
 	    "autoload": {
