@@ -1,0 +1,24 @@
+{
+    "name": "hg/package1",
+    "description": "only test",
+    "keywords": ["test-cms"],
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "huangggan",
+            "email": "466927746@qq.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/huanggan/one"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "hg/package2"="1.0"
+        
+    }
+
+}
