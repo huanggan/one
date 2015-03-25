@@ -21,6 +21,9 @@
         "hg/oo":"~1.0"
         
     },"autoload": {
+        "classmap":[
+            "src/What"
+        ],
            "psr-4": {
             "Hg\\Package\\": "src/"
         }
