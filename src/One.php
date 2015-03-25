@@ -1,6 +1,6 @@
 <?php
 namespace Hg\Package;
-use Hg\oo\Test;
+use Hg\Oo\Test;
 class One{
     protected $otherName;
 //    public function __construct(Test $a) {
@@ -10,7 +10,7 @@ class One{
         echo 'this is '.__CLASS__;
     }
     public function getOthers(){
-        return Test;
+        return new Test();
     }
 
     
