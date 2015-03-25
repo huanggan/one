@@ -1,5 +1,6 @@
 <?php
 namespace Hg\Package;
+use Hg\Package\What;
 use Hg\Oo\Test;
 class One{
     protected $otherName;
@@ -12,6 +13,8 @@ class One{
     public function getOthers(){
         return new Test();
     }
-
+	public function getWhat(){
+		return new What();
+	}
     
 }
