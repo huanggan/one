@@ -20,9 +20,11 @@
 
         "hg/oo":"~1.0"
         
-    },
-	"autoload": {
-        "psr-4": {
+    },"autoload": {
+              "classmap": [
+            "src/What/What.php"
+      
+        ],"psr-4": {
             "Hg\\Package\\": "src/"
         }
     },"extra": {
