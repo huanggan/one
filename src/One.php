@@ -7,7 +7,7 @@ class One{
 //        $this->otherName = $a;
 //    }
     public function __toString() {
-        echo 'this is '.__CLASS__;
+        return 'this is '.__CLASS__;
     }
     public function getOthers(){
         return new Test();
