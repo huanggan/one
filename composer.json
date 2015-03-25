@@ -23,7 +23,7 @@
     },"autoload": {
         
            "psr-4": {
-            "Hg\\Package\\": ""
+            "Hg\\Package\\": ["src/","src/What/"]
         }
     },"extra": {
         "branch-alias": {
