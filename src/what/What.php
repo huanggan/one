@@ -1,5 +1,5 @@
 <?php
-namespace Ha;
+namespace Hg\Package\What\What;
 class What{
   
     public function __toString() {
