@@ -1,6 +1,6 @@
 <?php
 namespace Hg\Package;
-use Hg\Package\What\What;
+use Hg\Package\What;
 use Hg\Oo\Test;
 class One{
     protected $otherName;
